@@ -9,6 +9,14 @@ void setup(){
 //🟢Draw Function - Runs on Repeat
 draw = function(){  
   background(255,255,255);
+
+  fill(0)
+  textSize(40);
+  text("My Most Favoritest Foods",30,40);
+  textSize(20);
+  text("Chicken",50,200);
+  text("BBQ Pork Bun",300,200);
+  text("Chicken Again because i love it so",200,350);
   
   if(mousePressed){
     showXYPositions();
